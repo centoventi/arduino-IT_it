@@ -6,4 +6,4 @@ Disccusions aperte al pubblico per nuovi suggerimenti/bug report.
 Stato: In sviluppo
 
 # Info
-Discord: @centoventi_
+Discord: https://discord.gg/hqtyCRtw5t 
