@@ -6,4 +6,4 @@ Disccusions aperte al pubblico per nuovi suggerimenti/bug report.
 Stato: In sviluppo
 
 # Info
-Discord: https://discord.gg/hqtyCRtw5t 
+Discord: https://discord.gg/hqtyCRtw5t (WIP)
