@@ -1,7 +1,10 @@
 # arduino
-Degli script per arduino IDE 
-Questa repository è in sviluppo. Dei cambiamenti ai contenuti potrebbero accadere nel tempo.
-Disccusions aperte al pubblico per nuovi suggerimenti/bug report.
+In fase di sviluppo
+Tutti gli script sono stati progettati per **TinkerCAD (tinkercad.com)** e **Arduino IDE (Arduino UNO R3)**
+
+# Repo in EN_gb e EN_us
+In sviluppo
+_In development_
 
 Stato: In sviluppo
 
