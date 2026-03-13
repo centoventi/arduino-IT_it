@@ -1,4 +1,4 @@
-# arduino (IT_ot)
+# arduino (IT_it)
 In fase di sviluppo
 - Tutti gli script sono stati progettati per **TinkerCAD (tinkercad.com)** e **Arduino IDE (Arduino UNO R3)**
 
