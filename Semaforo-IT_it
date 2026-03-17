@@ -1,0 +1,36 @@
+bool START;
+
+void setup() {
+  pinMode(9, OUTPUT);   // LED verde
+  pinMode(11, OUTPUT);  // LED giallo
+  pinMode(13, OUTPUT);  // LED rosso
+  pinMode(7, INPUT_PULLUP); // Pulsante
+}
+
+void loop() {
+
+  START = digitalRead(7);
+
+  if (START == LOW)  // pulsante premuto
+  {
+    digitalWrite(11, HIGH);
+    delay(1000);
+    digitalWrite(11, LOW);
+    delay(1000);
+  }
+  else
+  {
+    digitalWrite(9, HIGH);  // verde acceso
+    delay(3000);
+
+    digitalWrite(11, HIGH); // giallo acceso
+    delay(1000);
+
+    digitalWrite(9, LOW);   // verde spento
+    digitalWrite(11, LOW);  // giallo spento
+    digitalWrite(13, HIGH); // rosso acceso
+    delay(2000);
+
+    digitalWrite(13, LOW); // rosso spento
+  }
+}
