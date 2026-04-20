@@ -1,0 +1,14 @@
+int N; // dichiarazione variabile intera
+
+void setup()
+{
+  pinMode(3, OUTPUT); // Configura il PIN 3 come output
+}
+
+void loop()
+{
+  N = analogRead(A0);
+  N = map(N, 0, 1023, 40, 255);
+  analogWrite(3, N); // Genera il segnale PWM di comando
+  delay(10);
+}
